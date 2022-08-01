@@ -1,0 +1,313 @@
+body {
+    /* display: flex;
+    flex-direction: column; */
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+.menu-text {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-and-img {
+    display: flex;
+    width: 1248px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    }
+
+a {
+    flex-direction: row;
+    padding: 35px 26px 30px 26px;
+    color:rgba(224, 224, 224, 1);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.49px;
+}
+
+a:hover{
+    background-color: rgba(255, 63, 64, 1);
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    height: 336px;
+}
+
+.text-about{
+    width: 60% ;
+    height: auto;
+}
+
+.text-about > p {
+    margin-bottom: 63px;
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 28px;
+    width: 545px;
+}
+
+.img-about{
+    width: 551px;
+    margin-left: 80px;
+}
+
+.text-about > h2{
+    font-family: 'OpenSans';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 700;
+    /* or 120% */
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 26px;
+}
+
+.button-contact{
+    padding: 15px 63px 15px 63px;
+    background-color: rgba(255, 45, 45, 1);
+    font-family: 'OpenSans';
+    font-size: 18.0412px;
+    line-height: 34px;
+    /* or 188% */
+    letter-spacing: 0.3195px;
+}
+
+html {
+    min-height: 100%;
+    background: rgba(246, 242, 242, 1);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1249px;
+    height: 89px;
+    color: rgba(224, 224, 224, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1249px;
+    height: 89px;
+    color: rgba(224, 224, 224, 1);
+    background-color: rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 516px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.subscribe-content {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe-content p {
+    margin-top: 16px;
+    font-family: 'OpenSans';
+    font-size: 15.9953px;
+    line-height: 28px;
+}
+
+.subscribe-content h2 {
+    margin-bottom: 0;
+    font-family: 'OpenSans';
+    font-size: 42px;
+    line-height: 24px;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.subscribe input {
+    width: 542px;
+    height: 82px;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 38px;
+}
+
+.subscribe button {
+    margin-left: 20px;
+    padding: 0;
+    font-family: 'OpenSans';
+    font-size: 17.9026px;
+    line-height: 34px;
+    /* or 189% */
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 0;
+    height: 82px;
+    width: 217px;
+    background: rgba(255, 45, 45, 1);
+}
+.message {
+    
+    width: 1249px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-text {
+    margin-top: 70px;
+    width: 742px;
+    margin-bottom: 73px;
+}
+
+.message-text h1 {
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+    font-size: 41.9876px;
+    line-height: 0px;
+    letter-spacing: 0.3834px;  
+}
+
+.message-text p {
+    margin-bottom: 58px;
+    font-family: 'OpenSans';
+    font-size: 15.9953px;
+    line-height: 28px;
+}
+
+hr {
+    margin-left: 0;
+    border: 0;
+    width: 135px;
+    height: 5px;
+    background-color: rgba(255, 45, 45, 1);
+}
+
+.textarea {
+    padding-left: 50px;
+    margin-top: 23px;
+    height: 252px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: RGB(222, 218, 218);
+    font-family: 'OpenSans';
+    font-size: 15.9134px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.message-form button {
+    background: rgba(255, 45, 45, 1);
+    width: 100%;
+    height: 75px;
+    font-family: 'OpenSans';
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+}
+
+.message-form {
+    width: 734px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-start {
+    justify-content: start;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+    border: none;
+}
+
+.input {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    width: 40%;
+    /* height: 71px; */
+    background-color: RGB(222, 218, 218);
+    font-family: 'OpenSans';
+    font-size: 15.9134px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/* .input::placeholder {
+    font-family: 'OpenSans';
+    font-size: 15.9134px;
+    line-height: 28px;
+    color: #000000;
+} */
+
+.message-contact-info {
+    width: 580px;
+    height: 485px;
+    background: #2D2D2D;
+    color: #FFFFFF;
+    padding-left: 81px;
+    position: absolute;
+    left: 1000px;
+    top: 1462px;
+
+}
